@@ -13,7 +13,7 @@ export LANGUAGE=C
 # Fix for loadlocale.c Bug on Ubuntu 18.04
 export LC_ALL=C
 
-# Fix for useless dependencies define in twrp-8.1 tree
+# Fix for useless dependencies define in twrp-9.0 tree
 export ALLOW_MISSING_DEPENDENCIES=true
 
 # Initialize Environment and Lunch 
