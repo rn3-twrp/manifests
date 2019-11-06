@@ -9,3 +9,8 @@ wget https://raw.githubusercontent.com/rn3-twrp/manifests/master/twrp-build.sh
 chmod a+x twrp-build.sh
 ./twrp-build.sh
 ```
+Credits:
+```
+https://github.com/GuaiYiHu
+https://github.com/xiaomi-classic-dev
+```
