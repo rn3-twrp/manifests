@@ -2,11 +2,11 @@
 <manifest>
 
   <remote name="rn3-twrp" fetch="https://github.com/rn3-twrp"/>
-  <remote name="teamwin" fetch="https://github.com/TeamWin"/>
+  <remote name="omni" fetch="https://github.com/omnirom"/>
 
   <project path="device/xiaomi/kenzo" name="android_device_xiaomi_kenzo" revision="android-9.0" remote="rn3-twrp"/>
   <project path="kernel/xiaomi/msm8956" name="android_kernel_xiaomi_msm8956" revision="android-9.0" remote="rn3-twrp"/>
   <project path="vendor/xiaomi" name="proprietary_vendor_xiaomi" revision="android-9.0" remote="rn3-twrp"/>
-  <project path="device/qcom/common" name="android_device_qcom_common" revision="android-9.0" remote="teamwin"/>
+  <project path="vendor/qcom/opensource/commonsys" name="android_vendor_qcom_opensource_commonsys" revision="android-9.0" remote="omni"/>
   
 </manifest>
